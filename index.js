@@ -8,9 +8,9 @@ const uri=process.env.MONGO_URL;
 const bodyParser=require("body-parser");
 const cors=require("cors");
 
-const {Holding}=require("../backend/models/HoldingsModel");
-const {Position}=require("../backend/models/PositionsModel");
-const {Order}=require("../backend/models/OrdersModel");
+const {Holding}=require("./models/HoldingsModel");
+const {Position}=require(".models/PositionsModel");
+const {Order}=require("./models/OrdersModel");
 
 app.use(cors());
 app.use(bodyParser.json());
