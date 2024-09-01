@@ -9,7 +9,7 @@ const bodyParser=require("body-parser");
 const cors=require("cors");
 
 const {Holding}=require("./models/HoldingsModel");
-const {Position}=require(".models/PositionsModel");
+const {Position}=require("./models/PositionsModel");
 const {Order}=require("./models/OrdersModel");
 
 app.use(cors());
